@@ -8,20 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		143202471D33D5840079DEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143202461D33D5840079DEF7 /* AppDelegate.swift */; };
-		143202491D33D5840079DEF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143202481D33D5840079DEF7 /* ViewController.swift */; };
 		1432024C1D33D5840079DEF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1432024A1D33D5840079DEF7 /* Main.storyboard */; };
 		1432024E1D33D5840079DEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1432024D1D33D5840079DEF7 /* Assets.xcassets */; };
 		143202511D33D5840079DEF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1432024F1D33D5840079DEF7 /* LaunchScreen.storyboard */; };
+		1432025B1D33D62C0079DEF7 /* MasterTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1432025A1D33D62C0079DEF7 /* MasterTableVC.swift */; };
+		1432025D1D33D8A10079DEF7 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1432025C1D33D8A10079DEF7 /* CustomTableViewCell.xib */; };
+		1432026A1D33DA000079DEF7 /* 1stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 143202651D33DA000079DEF7 /* 1stars.png */; };
+		1432026B1D33DA000079DEF7 /* 2stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 143202661D33DA000079DEF7 /* 2stars.png */; };
+		1432026C1D33DA000079DEF7 /* 3stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 143202671D33DA000079DEF7 /* 3stars.png */; };
+		1432026D1D33DA000079DEF7 /* 4stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 143202681D33DA000079DEF7 /* 4stars.png */; };
+		1432026E1D33DA000079DEF7 /* 5stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 143202691D33DA000079DEF7 /* 5stars.png */; };
+		143202761D33DA1F0079DEF7 /* Arsenal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1432026F1D33DA1F0079DEF7 /* Arsenal.png */; };
+		143202771D33DA1F0079DEF7 /* Chelsea.png in Resources */ = {isa = PBXBuildFile; fileRef = 143202701D33DA1F0079DEF7 /* Chelsea.png */; };
+		143202781D33DA1F0079DEF7 /* EPL Banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 143202711D33DA1F0079DEF7 /* EPL Banner.jpg */; };
+		143202791D33DA1F0079DEF7 /* EPL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 143202721D33DA1F0079DEF7 /* EPL.jpg */; };
+		1432027A1D33DA1F0079DEF7 /* Liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = 143202731D33DA1F0079DEF7 /* Liverpool.png */; };
+		1432027B1D33DA1F0079DEF7 /* MC.png in Resources */ = {isa = PBXBuildFile; fileRef = 143202741D33DA1F0079DEF7 /* MC.png */; };
+		1432027C1D33DA1F0079DEF7 /* MU.png in Resources */ = {isa = PBXBuildFile; fileRef = 143202751D33DA1F0079DEF7 /* MU.png */; };
+		143202821D33DA3D0079DEF7 /* Anfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1432027D1D33DA3D0079DEF7 /* Anfield.jpg */; };
+		143202831D33DA3D0079DEF7 /* Emirates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1432027E1D33DA3D0079DEF7 /* Emirates.jpg */; };
+		143202841D33DA3D0079DEF7 /* Etihad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1432027F1D33DA3D0079DEF7 /* Etihad.jpg */; };
+		143202851D33DA3D0079DEF7 /* Old Trafford.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 143202801D33DA3D0079DEF7 /* Old Trafford.JPG */; };
+		143202861D33DA3D0079DEF7 /* Stamford Bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 143202811D33DA3D0079DEF7 /* Stamford Bridge.jpg */; };
+		143202881D33DAF60079DEF7 /* CustomizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143202871D33DAF60079DEF7 /* CustomizeTableViewCell.swift */; };
+		1432028A1D33DBF90079DEF7 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143202891D33DBF90079DEF7 /* DataItem.swift */; };
+		1432028C1D33F4E10079DEF7 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1432028B1D33F4E10079DEF7 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		143202431D33D5830079DEF7 /* CustomizeTableViewCellUseFileXIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizeTableViewCellUseFileXIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143202461D33D5840079DEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		143202481D33D5840079DEF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1432024B1D33D5840079DEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1432024D1D33D5840079DEF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		143202501D33D5840079DEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		143202521D33D5840079DEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1432025A1D33D62C0079DEF7 /* MasterTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableVC.swift; sourceTree = "<group>"; };
+		1432025C1D33D8A10079DEF7 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		143202651D33DA000079DEF7 /* 1stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1stars.png; sourceTree = "<group>"; };
+		143202661D33DA000079DEF7 /* 2stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2stars.png; sourceTree = "<group>"; };
+		143202671D33DA000079DEF7 /* 3stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3stars.png; sourceTree = "<group>"; };
+		143202681D33DA000079DEF7 /* 4stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4stars.png; sourceTree = "<group>"; };
+		143202691D33DA000079DEF7 /* 5stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5stars.png; sourceTree = "<group>"; };
+		1432026F1D33DA1F0079DEF7 /* Arsenal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arsenal.png; sourceTree = "<group>"; };
+		143202701D33DA1F0079DEF7 /* Chelsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chelsea.png; sourceTree = "<group>"; };
+		143202711D33DA1F0079DEF7 /* EPL Banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "EPL Banner.jpg"; sourceTree = "<group>"; };
+		143202721D33DA1F0079DEF7 /* EPL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EPL.jpg; sourceTree = "<group>"; };
+		143202731D33DA1F0079DEF7 /* Liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liverpool.png; sourceTree = "<group>"; };
+		143202741D33DA1F0079DEF7 /* MC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MC.png; sourceTree = "<group>"; };
+		143202751D33DA1F0079DEF7 /* MU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MU.png; sourceTree = "<group>"; };
+		1432027D1D33DA3D0079DEF7 /* Anfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Anfield.jpg; sourceTree = "<group>"; };
+		1432027E1D33DA3D0079DEF7 /* Emirates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Emirates.jpg; sourceTree = "<group>"; };
+		1432027F1D33DA3D0079DEF7 /* Etihad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Etihad.jpg; sourceTree = "<group>"; };
+		143202801D33DA3D0079DEF7 /* Old Trafford.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Old Trafford.JPG"; sourceTree = "<group>"; };
+		143202811D33DA3D0079DEF7 /* Stamford Bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stamford Bridge.jpg"; sourceTree = "<group>"; };
+		143202871D33DAF60079DEF7 /* CustomizeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeTableViewCell.swift; sourceTree = "<group>"; };
+		143202891D33DBF90079DEF7 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		1432028B1D33F4E10079DEF7 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +96,67 @@
 		143202451D33D5830079DEF7 /* CustomizeTableViewCellUseFileXIB */ = {
 			isa = PBXGroup;
 			children = (
+				1432025E1D33D9550079DEF7 /* image */,
 				143202461D33D5840079DEF7 /* AppDelegate.swift */,
-				143202481D33D5840079DEF7 /* ViewController.swift */,
+				143202891D33DBF90079DEF7 /* DataItem.swift */,
+				143202871D33DAF60079DEF7 /* CustomizeTableViewCell.swift */,
+				1432025A1D33D62C0079DEF7 /* MasterTableVC.swift */,
+				1432028B1D33F4E10079DEF7 /* DetailVC.swift */,
 				1432024A1D33D5840079DEF7 /* Main.storyboard */,
 				1432024D1D33D5840079DEF7 /* Assets.xcassets */,
 				1432024F1D33D5840079DEF7 /* LaunchScreen.storyboard */,
 				143202521D33D5840079DEF7 /* Info.plist */,
+				1432025C1D33D8A10079DEF7 /* CustomTableViewCell.xib */,
 			);
 			path = CustomizeTableViewCellUseFileXIB;
+			sourceTree = "<group>";
+		};
+		1432025E1D33D9550079DEF7 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				143202641D33D9D10079DEF7 /* Logo Football Club */,
+				143202631D33D9C50079DEF7 /* Stadium */,
+				143202621D33D9B90079DEF7 /* Star Rating Image */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		143202621D33D9B90079DEF7 /* Star Rating Image */ = {
+			isa = PBXGroup;
+			children = (
+				143202651D33DA000079DEF7 /* 1stars.png */,
+				143202661D33DA000079DEF7 /* 2stars.png */,
+				143202671D33DA000079DEF7 /* 3stars.png */,
+				143202681D33DA000079DEF7 /* 4stars.png */,
+				143202691D33DA000079DEF7 /* 5stars.png */,
+			);
+			name = "Star Rating Image";
+			sourceTree = "<group>";
+		};
+		143202631D33D9C50079DEF7 /* Stadium */ = {
+			isa = PBXGroup;
+			children = (
+				1432027D1D33DA3D0079DEF7 /* Anfield.jpg */,
+				1432027E1D33DA3D0079DEF7 /* Emirates.jpg */,
+				1432027F1D33DA3D0079DEF7 /* Etihad.jpg */,
+				143202801D33DA3D0079DEF7 /* Old Trafford.JPG */,
+				143202811D33DA3D0079DEF7 /* Stamford Bridge.jpg */,
+			);
+			name = Stadium;
+			sourceTree = "<group>";
+		};
+		143202641D33D9D10079DEF7 /* Logo Football Club */ = {
+			isa = PBXGroup;
+			children = (
+				1432026F1D33DA1F0079DEF7 /* Arsenal.png */,
+				143202701D33DA1F0079DEF7 /* Chelsea.png */,
+				143202711D33DA1F0079DEF7 /* EPL Banner.jpg */,
+				143202721D33DA1F0079DEF7 /* EPL.jpg */,
+				143202731D33DA1F0079DEF7 /* Liverpool.png */,
+				143202741D33DA1F0079DEF7 /* MC.png */,
+				143202751D33DA1F0079DEF7 /* MU.png */,
+			);
+			name = "Logo Football Club";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +217,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1432026B1D33DA000079DEF7 /* 2stars.png in Resources */,
+				143202841D33DA3D0079DEF7 /* Etihad.jpg in Resources */,
 				143202511D33D5840079DEF7 /* LaunchScreen.storyboard in Resources */,
 				1432024E1D33D5840079DEF7 /* Assets.xcassets in Resources */,
+				1432026A1D33DA000079DEF7 /* 1stars.png in Resources */,
+				143202771D33DA1F0079DEF7 /* Chelsea.png in Resources */,
+				1432027B1D33DA1F0079DEF7 /* MC.png in Resources */,
+				143202791D33DA1F0079DEF7 /* EPL.jpg in Resources */,
+				1432026C1D33DA000079DEF7 /* 3stars.png in Resources */,
+				1432025D1D33D8A10079DEF7 /* CustomTableViewCell.xib in Resources */,
+				143202761D33DA1F0079DEF7 /* Arsenal.png in Resources */,
+				143202861D33DA3D0079DEF7 /* Stamford Bridge.jpg in Resources */,
+				143202821D33DA3D0079DEF7 /* Anfield.jpg in Resources */,
+				143202781D33DA1F0079DEF7 /* EPL Banner.jpg in Resources */,
+				1432027C1D33DA1F0079DEF7 /* MU.png in Resources */,
+				143202851D33DA3D0079DEF7 /* Old Trafford.JPG in Resources */,
+				143202831D33DA3D0079DEF7 /* Emirates.jpg in Resources */,
+				1432026D1D33DA000079DEF7 /* 4stars.png in Resources */,
 				1432024C1D33D5840079DEF7 /* Main.storyboard in Resources */,
+				1432027A1D33DA1F0079DEF7 /* Liverpool.png in Resources */,
+				1432026E1D33DA000079DEF7 /* 5stars.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				143202491D33D5840079DEF7 /* ViewController.swift in Sources */,
+				1432028C1D33F4E10079DEF7 /* DetailVC.swift in Sources */,
+				143202881D33DAF60079DEF7 /* CustomizeTableViewCell.swift in Sources */,
 				143202471D33D5840079DEF7 /* AppDelegate.swift in Sources */,
+				1432028A1D33DBF90079DEF7 /* DataItem.swift in Sources */,
+				1432025B1D33D62C0079DEF7 /* MasterTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
